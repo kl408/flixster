@@ -26,4 +26,4 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 <img src="YOUR_GIF_URL_HERE" width=250><br>
 
 ### Notes
-It was difficult to customize styling in iOS as the font options and styling of each table cell seem limited with my current knowledge in Swift.
+It was difficult to customize styling in iOS as the font options and styling of each table cell seem limited with my current knowledge in Swift. In addition, I had made changes to include the Launch Screen but my changes wouldn't be pushed into this repository. 
