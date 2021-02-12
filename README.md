@@ -9,7 +9,9 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ## Flix Part 1
 
 ### User Stories
-`TODO://` In the **User Stories section below**, add an `x` in the `-[ ]` like this `- [x]` for any user story you complete. (🚫 Remove this paragraph after checking off completed user stories)
+- [x] User is introduced to launch screen after tapping the app log
+- [x] User is able to scroll through a list of movies from The movie Database API
+- [x] User can view movie posters for each movie
 
 #### REQUIRED (10pts)
 - [ ] (2pts) User sees an app icon on the home screen and a styled launch screen.
@@ -21,9 +23,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [ ] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
-
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+https://imgur.com/a/uBXJhyw
 
 ### Notes
-It was difficult to customize styling in iOS as the font options and styling of each table cell seem limited with my current knowledge in Swift. In addition, I had made changes to include the Launch Screen but my changes wouldn't be pushed into the repository- it took some time to figure it out through Xcode. 
+It was difficult to customize styling in iOS as the font options and styling of each table cell seem limited with my current knowledge in Swift. In addition, I had made changes to include the Launch Screen but my changes wouldn't be pushed into the repository- it took some time to figure it out through Xcode. HackMD wasn't also properly importing my GIF. 
