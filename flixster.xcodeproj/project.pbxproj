@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,9 @@
 		D62D8E2B25D4DF5100B94AD2 /* flixsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D8E2A25D4DF5100B94AD2 /* flixsterUITests.swift */; };
 		D62D8E3F25D4E10400B94AD2 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D8E3E25D4E10400B94AD2 /* MoviesViewController.swift */; };
 		D62D8E4425D5874600B94AD2 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D8E4325D5874600B94AD2 /* MovieCell.swift */; };
+		D62D8E5425E0441500B94AD2 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D8E5325E0441500B94AD2 /* MovieDetailsViewController.swift */; };
+		D62D8E5925E0806A00B94AD2 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D8E5825E0806900B94AD2 /* MovieGridViewController.swift */; };
+		D62D8E5E25E0861600B94AD2 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D8E5D25E0861600B94AD2 /* MovieGridCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,9 @@
 		D62D8E2C25D4DF5100B94AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D62D8E3E25D4E10400B94AD2 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		D62D8E4325D5874600B94AD2 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		D62D8E5325E0441500B94AD2 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		D62D8E5825E0806900B94AD2 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		D62D8E5D25E0861600B94AD2 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		F449446F643D483BBDF12B0C /* Pods_flixsterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flixsterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +109,6 @@
 				A3220A8375E1BA53EAF0B7AC /* Pods-flixsterTests.debug.xcconfig */,
 				706A710EDB5575EC95434883 /* Pods-flixsterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -135,11 +140,14 @@
 				D62D8E0825D4DF4F00B94AD2 /* AppDelegate.swift */,
 				D62D8E0A25D4DF4F00B94AD2 /* SceneDelegate.swift */,
 				D62D8E0E25D4DF4F00B94AD2 /* Main.storyboard */,
+				D62D8E5325E0441500B94AD2 /* MovieDetailsViewController.swift */,
 				D62D8E4325D5874600B94AD2 /* MovieCell.swift */,
 				D62D8E1125D4DF5100B94AD2 /* Assets.xcassets */,
 				D62D8E1325D4DF5100B94AD2 /* LaunchScreen.storyboard */,
 				D62D8E1625D4DF5100B94AD2 /* Info.plist */,
 				D62D8E3E25D4E10400B94AD2 /* MoviesViewController.swift */,
+				D62D8E5825E0806900B94AD2 /* MovieGridViewController.swift */,
+				D62D8E5D25E0861600B94AD2 /* MovieGridCell.swift */,
 			);
 			path = flixster;
 			sourceTree = "<group>";
@@ -410,10 +418,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D62D8E5425E0441500B94AD2 /* MovieDetailsViewController.swift in Sources */,
 				D62D8E0925D4DF4F00B94AD2 /* AppDelegate.swift in Sources */,
 				D62D8E0B25D4DF4F00B94AD2 /* SceneDelegate.swift in Sources */,
 				D62D8E4425D5874600B94AD2 /* MovieCell.swift in Sources */,
 				D62D8E3F25D4E10400B94AD2 /* MoviesViewController.swift in Sources */,
+				D62D8E5925E0806A00B94AD2 /* MovieGridViewController.swift in Sources */,
+				D62D8E5E25E0861600B94AD2 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
