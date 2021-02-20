@@ -2,14 +2,40 @@
 
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-📝 `NOTE - PASTE PART 2 SNIPPET HERE:` Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
+## Flix Part 2
+
+### User Stories
+(From Part 2)
+- [x] User is able to tap a cell to view details about a particular movie
+- [x] User can view grid layout of Movie Posters through a CollectionView 
+
+(From Part 1)
+- [x] User is introduced to launch screen after tapping the app log
+- [x] User is able to scroll through a list of movies from The movie Database API
+- [x] User can view movie posters for each movie
+
+#### REQUIRED (10pts)
+- [ ] (5pts) User can tap a cell to see more details about a particular movie.
+- [ ] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+
+#### BONUS
+- [ ] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
+- [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
+
+### App Walkthrough GIF
+https://imgur.com/a/ilWvmej
+
+### Notes
+Initially when building the app I was unsure of how to change the column layout (until the last part of the guide.) I am still trying to adjust to pushing updates through Git as well.
 
 ---
 
 ## Flix Part 1
 
 ### User Stories
-`TODO://` In the **User Stories section below**, add an `x` in the `-[ ]` like this `- [x]` for any user story you complete. (🚫 Remove this paragraph after checking off completed user stories)
+- [x] User is introduced to launch screen after tapping the app log
+- [x] User is able to scroll through a list of movies from The movie Database API
+- [x] User can view movie posters for each movie
 
 #### REQUIRED (10pts)
 - [ ] (2pts) User sees an app icon on the home screen and a styled launch screen.
@@ -21,9 +47,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [ ] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
-
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+https://imgur.com/a/uBXJhyw
 
 ### Notes
-It was difficult to customize styling in iOS as the font options and styling of each table cell seem limited with my current knowledge in Swift. In addition, I had made changes to include the Launch Screen but my changes wouldn't be pushed into this repository. 
+It was difficult to customize styling in iOS as the font options and styling of each table cell seem limited with my current knowledge in Swift. In addition, I had made changes to include the Launch Screen but my changes wouldn't be pushed into the repository- it took some time to figure it out through Xcode. HackMD wasn't also properly importing my GIF. 
